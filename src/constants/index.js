@@ -7,14 +7,7 @@ export const HERO_CONTENT = `I am a passionate front-end web developer with a kn
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
        [
-  {
-    year: "2024 - present",
-    role: "Frontend Developer",
-    company: "Freelance",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with product designers to integrate frontend components. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Javascript", "React", "Next.js", "Redux", "Tailwind CSS", "Framer Motion", "Git", "Github"],
-    url: "https://myecommerceapp.com"
-  },
+  
 ];
 
 export const PROJECTS = [
@@ -32,7 +25,7 @@ export const PROJECTS = [
     description:
       "A visually engaging static website designed for a fictional podcast brand. The landing page features smooth hover effects, responsive layout, and a modern UI that showcases podcast episodes, guest profiles, and newsletter signup sections.",
     technologies: ["HTML", "CSS", "Javascript"],
-    url: "https://podcast-landing-page-lilac.vercel.app/"
+    url: "https://podcast-landing-page-ar3e0ftgb.vercel.app/"
   },
   {
     title: "E-SHOP e-commerce website",

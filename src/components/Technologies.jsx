@@ -3,7 +3,6 @@ import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiMongodb } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
-import { DiRedis } from 'react-icons/di'
 import { motion } from 'framer-motion'
 import { SiTailwindcss } from 'react-icons/si'
 
