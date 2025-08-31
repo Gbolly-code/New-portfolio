@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "Smart Bank App Landing Page",
+    title: "Hilink - Travel Website",
     image: project1,
     description:
       "A clean and modern landing page for a fictional smart banking mobile app. Optimized for mobile-first viewing with a focus on sleek visual presentation.",
