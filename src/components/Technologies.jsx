@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb } from 'react-icons/si'
+import { SiMongodb, SiTypescript } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { SiTailwindcss } from 'react-icons/si'
@@ -66,6 +66,14 @@ const Technologies = () => {
                 variants={iconVariants(3)} className='flex flex-col items-center p-4'>
                      <SiTailwindcss className='text-7xl text-blue-500' />
                      <span className='mt-2 text-lg font-medium'>Tailwind CSS</span>
+                </motion.div>
+
+                <motion.div
+                initial='initial'
+                animate='animate'
+                variants={iconVariants(3)} className='flex flex-col items-center p-4'>
+                     <SiTypescript className='text-7xl text-blue-500' />
+                     <span className='mt-2 text-lg font-medium'>TypeScript</span>
                 </motion.div>
             </motion.div>
     </div>
