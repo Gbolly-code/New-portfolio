@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.webp";
 import project5 from "../assets/projects/project-5.webp";
 
 export const HERO_CONTENT = `I am a passionate front-end web developer with a knack for crafting robust and scalable websites and applications. With a year of hands-on experience, I have honed my skills in front-end technologies like HTML, CSS, Javascript and React. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -12,12 +13,12 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "Hilink - Travel Website",
+    title: "Hilink Travel Website",
     image: project1,
     description:
-      "A clean and modern landing page for a fictional smart banking mobile app. Optimized for mobile-first viewing with a focus on sleek visual presentation.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    url: "https://smart-bank-landing-page.vercel.app/"
+      "A Responsive and modern travel website showcasing destinations and booking features. Cross-device UI/UX. Staggered animations with Framer Motion",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    url: "https://travel-website-alpha-pied.vercel.app/"
   },
   {
     title: "Podcast Landing Page",
@@ -37,11 +38,19 @@ export const PROJECTS = [
   },
   {
     title: "Job Portal Application",
-    image: project5,
+    image: project4,
     description:
       "A job portal web application where users can post, search, and filter jobs. Features include job posting,job browsing,and responsive design for seamless user design.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     url: "https://mern-job-portal-woad.vercel.app/"
+  },
+  {
+    title: "Smart Bank App Landing Page",
+    image: project5,
+    description:
+      "A clean and modern landing page for a fictional smart banking mobile app. Optimized for mobile-first viewing with a focus on sleek visual presentation.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    url: "https://smart-bank-landing-page.vercel.app/"
   },
 ];
 
